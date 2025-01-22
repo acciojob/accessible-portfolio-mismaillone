@@ -1,2 +1,33 @@
-
-/* Your CSS Code here. */
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+	list-style:none;
+	text-decoration:none;
+}
+nav{
+	padding:15px;
+	font-size:19px;
+	font:bold;
+	display:flex;
+	justify-content:center;
+ }
+nav ul {
+	display:flex;	
+	gap:50px
+}
+section{
+	padding:10px;
+	background:#C70039 ;
+	
+}
+h1, p{
+	padding:20px 20px;
+	font:bold;
+	font-weight:300;
+}
+.img-section{
+	margin-left:60%;
+	border-radius:70%;
+	width:250px
+}

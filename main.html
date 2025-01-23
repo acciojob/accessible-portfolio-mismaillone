@@ -1,29 +1,47 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-	<nav>
-		<ul>
-			<li><a href="#home">Home</a></li>
-			<li><a href="#home">Blog</a></li>
-			<li><a href="#home">Contact</a></li>
-		</ul>
-	</nav>
+    <!-- Navigation Bar -->
+    <nav role="navigation" aria-label="Main Navigation">
+        <ul role="list">
+            <li role="listitem"><a href="#about">About</a></li>
+            <li role="listitem"><a href="#projects">Projects</a></li>
+            <li role="listitem"><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
 
-	<section>
-		<img class="img-section" src = "https://media.licdn.com/dms/image/v2/D5603AQFcKRqLBbmnyA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1703234384573?e=2147483647&v=beta&t=OMATmmriTB3i2gIX0ufqA7JGlm5gevNY-gntWKED3fw">
-		<h1>I'M Mohammad Ismail </h1>
-		<p>🚀 I'm a driven and enthusiastic Java developer on a mission to transform concepts into code. With a strong foundation in Java fundamentals and object-oriented programming, I'm constantly seeking new challenges and learning opportunities in the world of software development.</p>
-	</section>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+    <!-- Main Heading -->
+    <header>
+        <h1 role="heading" aria-level="1">Jackie's Accessible Portfolio</h1>
+    </header>
 
+    <!-- Profile Section -->
+    <section id="about">
+        <img src="https://avatars.githubusercontent.com/u/101501734?v=4" alt="Portrait of Jackie" role="img">
+        <p>Hello! I'm Jackie, a passionate developer focused on building inclusive and accessible web applications. I believe in creating technology that everyone can use.</p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2 role="heading" aria-level="2">My Projects</h2>
+        <ul role="list">
+            <li role="listitem">Accessible Portfolio Website</li>
+            <li role="listitem">BookMyShow Clone</li>
+            <li role="listitem">Cyber Security Analyzer</li>
+        </ul>
+    </section>
+
+    <!-- Contact Section -->
+    <footer id="contact">
+        <h2 role="heading" aria-level="2">Contact Me</h2>
+        <p>Email: <a href="mailto:ismaillone0000@gmail.com">ismaillone0000@gmail.com </a></p>
+        <p>LinkedIn: <a href="/linkedin" target="_blank">linkedin.com/in/ismail</a></p>
+    </footer>
 </body>
-
 </html>
